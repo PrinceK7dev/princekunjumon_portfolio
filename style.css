@@ -106,4 +106,152 @@
       margin: 1rem 0;
     }
   }
+  #projects {
+    text-align: center;
+    padding: 4rem 10%;
+    background-color: var(--background-color);
+  }
   
+  h2 {
+    color: var(--secondary-color);
+    margin-bottom: 2rem;
+  }
+  
+  /* Container for project cards */
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Space between cards */
+  }
+  
+  /* Individual project card */
+  .project-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Hover effect for project cards */
+  .project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Project card text styles */
+  .project-card h3 {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .project-card p {
+    margin-bottom: 1.5rem;
+    color: #e2e8f0;
+  }
+  
+  /* Button styling */
+  .project-card .btn {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .project-card .btn:hover {
+    background-color: var(--primary-color);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .project-card {
+      width: 100%;
+    }
+  }
+  /* Skills Section */
+#skills {
+  text-align: center;
+  padding: 4rem 10%;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skills-container span {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: var(--secondary-color);
+}
+
+/* Certificates Section */
+#certificates {
+  text-align: center;
+  padding: 4rem 10%;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.certificates-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.certificate-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.certificate-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.certificate-card h3 {
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+
+.certificate-card p {
+  margin-bottom: 1.5rem;
+  color: #e2e8f0;
+}
+
+/* Button styling */
+.certificate-card .btn {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.certificate-card .btn:hover {
+  background-color: var(--primary-color);
+}
+.certificate-card img {
+  width: 100%; /* Make the image responsive to its container */
+  height: 200px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensures the image fits within the dimensions without distortion */
+  border-radius: 8px; /* Adds rounded corners for a cleaner look */
+  margin-bottom: 1rem;
+}
