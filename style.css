@@ -16,7 +16,7 @@
   
   body {
     /* background-color: var(--background-color); */
-    background: var(--gradient-bg), url('images/background.jpg') repeat;
+    background: var(--gradient-bg), url('images/background.png') repeat;
     background-size: cover;
     color: var(--text-color);
     animation: scrollBackground 30s linear infinite;
