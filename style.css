@@ -70,11 +70,13 @@
   }
   
   h2 {
+    text-align: center;
     color: var(--secondary-color);
     margin-bottom: 1rem;
     background: var(--gradient-bg);
+    background-clip: var(--gradient-bg);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: aquamarine;
   }
   
   #hero {
